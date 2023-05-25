@@ -78,7 +78,6 @@ end
 
 ![Screenshot 2023-05-03 13-31-10](https://user-images.githubusercontent.com/125737299/235969995-462ecafc-d639-44c3-b27a-db626fd5da80.png)
 ![Screenshot 2023-05-03 13-30-05](https://user-images.githubusercontent.com/125737299/235969657-d981893d-ea2f-4141-bb49-6563b66682cb.png)
-![Screenshot 2023-05-03 13-30-09](https://user-images.githubusercontent.com/125737299/235969667-5e3fc1dc-2992-482e-9f9f-e8a39bb33aef.png)
 
 Когда пробуем поменяь содержание папки `Code` через терминал виртуальной машины, содержание меняется также и на главном компьютере.
 
