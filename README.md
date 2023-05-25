@@ -1,15 +1,15 @@
 # lab-09
 
-We will use Windows for making thid laboratory work
+Для работы будет использована ОС Windows.
 
-First we install all the necessary software:
+Сначала скачиваем необходимое ПО:
 - vagrant
 - PuTTY
 - Virtual Box
 
-Next we create a `Vagrantfile`
+Затем создаем `Vagrantfile`
 
-Contents of `Vagrantfile`:
+содердание: `Vagrantfile`:
 ```
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
@@ -74,13 +74,13 @@ end
 ```
 ![Screenshot 2023-05-03 13-29-59](https://user-images.githubusercontent.com/125737299/235969195-b0ceb67d-4e26-46ec-9b02-f7c2756534fa.png)
 
-Now we use PuTTY to generate SSH keys (add them to ~/.ssh). And then we connect to the virtual machine launched using Vagrant
+Теперь нужно исползовать PuTTY чтобы создать SSH ключ ( ~/.ssh). И затем подключаемся с виртуальной машиной, использующей Vargant
 
 ![Screenshot 2023-05-03 13-31-10](https://user-images.githubusercontent.com/125737299/235969995-462ecafc-d639-44c3-b27a-db626fd5da80.png)
 ![Screenshot 2023-05-03 13-30-05](https://user-images.githubusercontent.com/125737299/235969657-d981893d-ea2f-4141-bb49-6563b66682cb.png)
 ![Screenshot 2023-05-03 13-30-09](https://user-images.githubusercontent.com/125737299/235969667-5e3fc1dc-2992-482e-9f9f-e8a39bb33aef.png)
 
-When trying to change the contents of the `Code` folder through the terminal of the virtual machine, its contents are also changed on the host computer
+Когда пробуем поменяь содержание папки `Code` через терминал виртуальной машины, содержание меняется также и на главном компьютере.
 
 ![Screenshot 2023-05-03 13-30-17](https://user-images.githubusercontent.com/125737299/235969932-e289f5ce-3f29-4989-9c41-0d190cf98539.png)
 
